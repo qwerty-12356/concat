@@ -1,4 +1,10 @@
-a = "A";
-b = "B";
+#include <iostream>
+using namespace std;
 
-cout << a+b << endl;
+int main(){
+  string a = "A";
+  string b = "B";
+
+  cout << a+b << endl; 
+  return 0;
+}
